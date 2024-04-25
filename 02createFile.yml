@@ -1,0 +1,8 @@
+---
+- hosts: appServers
+  tasks:
+   - name: Create a file
+     file:
+      path: /tmp/Onome.txt 
+      state: touch
+...
